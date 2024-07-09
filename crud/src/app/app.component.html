@@ -2,7 +2,7 @@
 <h2>Lista de Movies:</h2>
 <ul>
   <li *ngFor="let movie of movies">
-    <h2> {{movie.id }}: Titulo: {{ movie.title }} <br>
-      Descripcion: {{ movie.desc }}. Año: {{ movie.year }}</h2>
+    <p><b>{{movie.id }}: Titulo:</b> {{ movie.title }} <br>
+      <b>Descripcion:</b> {{ movie.desc }}. <b>Año:</b> {{ movie.year }}</p>
   </li>
 </ul>
